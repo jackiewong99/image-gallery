@@ -13,7 +13,7 @@ Create a simple image gallery.
 
 ## 🎯 Objective
 
-Use CSS Flexbox to create a simple image gallery, and learn how the flex container (Parent) and flex items (Children) work.
+Use CSS Flexbox to create a simple image gallery, and learn how the flex container (parent) and flex items (children) work.
 
 ## ✋ Hold on...
 
