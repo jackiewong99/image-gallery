@@ -10,6 +10,8 @@ Create a simple image gallery.
 ### Mobile View
 
 ![](images/image-gallery-mobile.png)
+![](images/image-gallery-mobile-2.png)
+![](images/image-gallery-mobile-3.png)
 
 ## 🎯 Objective
 
