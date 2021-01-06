@@ -125,7 +125,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
   - **For this project, you do not need a full understanding of media queries, I will provide you with the media query below. I recommend looking into media queries afterwards.**
 
-  - After targeting the class name `text`, we will make a media query like so:
+  - After targeting the class name `text`, we will make a media query to create a breakpoint at 1200px (this will make our project responsive to changing screen sizes):
 
   ```CSS
   @media screen and (max-width: 1200px) {
