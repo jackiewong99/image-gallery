@@ -58,13 +58,13 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
     https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
     ```
 
-    - Create a `p` element after each `img` with the class name `text` and insert the following sample text (we will be using the same sample text for all of the **rows**):
+    - Create a `p` element after each `img` with the class name `item` and `text`, and insert the following sample text (we will be using the same sample text for all of the **rows**):
 
     ```HTML
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quo enim exercitationem tempore minima soluta ullam voluptates quam animi vel dignissimos, accusantium ut commodi aliquam inventore delectus doloribus adipisci minus quasi nulla nam illum unde hic. Nobis temporibus, cumque praesentium itaque aperiam aut repellendus enim nisi quam ut. Reiciendis, unde?
     ```
 
-    - In each even **row** (second and last), create a `p` element with the class name `text` and insert the same sample text that we used previously for the odd **rows**.
+    - In each even **row** (second and last), create a `p` element with the class name `item` and `text`, and insert the same sample text that we used previously for the odd **rows**.
 
     - Now create an `img` element for each **row** and give each `img` an `src`.
 
