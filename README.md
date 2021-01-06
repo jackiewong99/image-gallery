@@ -76,7 +76,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
     https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzd8fG1jZG9uYWxkJ3N8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
     ```
 
-    ***
+  ***
 
   - Finally, after creating the four rows, create a `footer` with the class name of `item` and text of "END OF THE GALLERY".
 
