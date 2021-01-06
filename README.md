@@ -84,7 +84,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
 - Target the `body`
 
-  - Set the background color to `#a1d4f37d`.
+  - Set the background color to `#ffffff`.
 
 - Target the class name `container`
 
@@ -94,6 +94,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
   - Set the font size to `2rem`
   - Set the line height to `1`
+  - Set the letter spacing to `12px`
   - Set the margin to `5px`
   - Set the top and bottom padding to `2rem`
   - Set the left and right padding to `3rem`
@@ -101,12 +102,21 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
 - Target the class name `item`
 
-  - Set the color to `#306b8e`
+  - Set the color to `#367caf`
 
 - Target the class name `row` (parent flex containers)
 
   - Set the display to `flex`
   - Set the flex direction to `row`
+  - Set the background color to `#b5ffbb57`
+  - Set the border radius to `20px`
+  - Set the box shadow to the following values:
+    - Offset the x-position by `5px`
+    - Offset the y-position by `7px`
+    - Set the blur radius to `8px`
+    - Set the color to `rgba(0, 0, 0, 0.2)`
+  - Set the top and bottom margins to `2rem`
+  - Set the left and right margins to `2rem`
 
 - Target the `img` elements (child of the parent flex containers)
 
