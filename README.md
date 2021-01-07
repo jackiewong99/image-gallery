@@ -68,7 +68,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
     - In each even **row** (second and last), create a `p` element with the class name `item` and `text`, and insert the same sample text that we used previously for the odd **rows**.
 
-    - Now create an `img` element for each `p` element and give each `img` an `src`.
+    - Now create an `img` element after each `p` element and give each `img` an `src`.
 
     - In each `src`, use one of the following links:
 
