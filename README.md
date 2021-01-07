@@ -165,7 +165,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
 - **Change the flex properties of the child flex items:**
 
-  - Change the images' flex properties to take up more space in the container. (Currently the images and text captions each take up half the space.)
+  - Change the images' flex properties to take up more space in the flex container. (Currently the images and text captions each take up half the space in their respective flex containers.)
 
 - **Create a new version**
 
