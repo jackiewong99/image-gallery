@@ -1,6 +1,6 @@
 # image-gallery
 
-Create a simple image gallery.
+Create a simple responsive image gallery.
 
 ### Desktop view
 
@@ -15,14 +15,14 @@ Create a simple image gallery.
 
 ## 🎯 Objective
 
-Use CSS Flexbox to create a simple image gallery, and learn how the flex container (parent) and flex items (children) work.
+Use CSS Flexbox to create a simple responsive image gallery, and learn how the flex container (parent) and flex items (children) work.
 
 ## ✋ Hold on...
 
 Before starting this project, you should have an intermediate understanding of:
 
 - HTML elements (divs, paragraphs, images, attributes, anchor tags, etc.)
-- CSS (Flexbox, element selectors, border, margin, padding, etc.)
+- CSS (Flexbox, element selectors, border, margin, padding, pseudo-classes, etc.)
 
 ## ⚒️ Let's Build
 
@@ -52,7 +52,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
   - `div` with the class name `row` four times. From this point on, we will refer to these four **divs** as **rows**.
 
     - In each odd **row** (first and third), create an `img` and give each `img` an `src`.
-    - For each `src`, use one of the following links (I recommend using all images for variety. Feel free to find your own images):
+    - For each `src`, use one of the following links (I recommend using all of the images for variety. Feel free to find your own images):
 
     ```HTML
     https://images.unsplash.com/photo-1504713721722-f73b4ccdfe6a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhbmRhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
@@ -68,7 +68,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
     - In each even **row** (second and last), create a `p` element with the class name `item` and `text`, and insert the same sample text that we used previously for the odd **rows**.
 
-    - Now create an `img` element for each **row** and give each `img` an `src`.
+    - Now create an `img` element for each `p` element and give each `img` an `src`.
 
     - In each `src`, use one of the following links:
 
@@ -97,7 +97,8 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
   - Set the font size to `2rem`
   - Set the line height to `1`
   - Set the letter spacing to `12px`
-  - Set the margin to `5px`
+  - Set the top and bottom margin to `5px`
+  - Set the left and right margin to `5px`
   - Set the top and bottom padding to `2rem`
   - Set the left and right padding to `3rem`
   - Align the text to the center
@@ -137,7 +138,7 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
   - **For this project, you do not need a full understanding of media queries, I will provide you with the media query below. I recommend looking into media queries afterwards.**
 
-  - After targeting the class name `text`, we will make a media query to create a breakpoint at 1200px (this will make our project responsive to changing screen sizes):
+  - After targeting the class name `text`, we will make a media query to create a breakpoint at 1200px (this will make our project responsive to smaller screen sizes):
 
   ```CSS
   @media screen and (max-width: 1200px) {
@@ -162,13 +163,19 @@ _**NOTE: Create the HTML elements with the same nested structure as the followin
 
 ## 🤸 Stretch Goals
 
-- Vertically align the captions with the images where the caption is below the image.
+- **Change the flex properties of the child flex items:**
 
-  - For each **image-caption** pair, display them in the direction of rows.
+  - Change the images' flex properties to take up more space in the container. (Currently the images and text captions each take up half the space.)
 
-- Add an image hover overlay effect.
+- **Create a new version**
 
-  - While the user is hovering an image, show an overlay with a button that redirects the user to the image's source link or to the [Unsplash](https://unsplash.com) home page.
+  - Vertically align the captions with the images where the caption is below the image.
+
+    - For each **image-caption** pair, display them in the direction of rows.
+
+  - Add an image hover overlay effect.
+
+    - While the user is hovering an image, show an overlay with a button that redirects the user to the image's source link or to the [Unsplash](https://unsplash.com) home page.
 
 - **Resources**
   - [A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
